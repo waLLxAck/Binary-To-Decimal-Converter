@@ -1,0 +1,10 @@
+binNum=input("Please enter binary number: ")
+denPlaceValue=2**(len(binNum)-1)
+denNum=0
+for i in range(0,len(binNum)):
+    if binNum[i]=="1":
+        denNum+=denPlaceValue
+        denPlaceValue/=2
+    elif binNum[i]=="0":
+        denPlaceValue/=2
+print(denNum)
