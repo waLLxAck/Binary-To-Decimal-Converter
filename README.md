@@ -1,2 +1,3 @@
-# Binary-to-decimal-Converter-
-It was a class project.
+# Binary-to-decimal-Converter
+
+My first github repo. It shall remain on my account forever.
